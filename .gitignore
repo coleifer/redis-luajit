@@ -24,6 +24,11 @@ src/nodes.conf
 deps/lua/src/lua
 deps/lua/src/luac
 deps/lua/src/liblua.a
+deps/luajit-2.0.5/src/libluajit.a
+deps/luajit-2.0.5/src/libluajit.so
+deps/luajit-2.0.5/src/luajit
+deps/luajit-2.0.5/src/host/buildvm
+deps/luajit-2.0.5/src/host/minilua
 .make-*
 .prerequisites
 *.dSYM
