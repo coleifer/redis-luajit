@@ -1,3 +1,15 @@
+Redis-LuaJIT Fork
+-----------------
+
+This fork of the Redis 5.0 branch includes a vendored copy of the latest stable
+LuaJIT release (2.0.5). Since Lua 5.1 is compatible with LuaJIT, the changes
+are minimal and almost exclusively related to the compilation/linking steps.
+There is an additional change to the `scripting.c` module to ensure that the
+`jit` and `ffi` modules are available in the global Lua namespace.
+
+**Original readme follows:**
+
+
 This README is just a fast *quick start* document. You can find more detailed documentation at [redis.io](https://redis.io).
 
 What is Redis?
